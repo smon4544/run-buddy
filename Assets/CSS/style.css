@@ -39,16 +39,18 @@ header nav {
     margin: 7px 0;
 }
 
-header nav ul li {
-    /* applies styles to <li> within <ul> within <nav> within <header> */
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
-    /* applies styles to <a> within <li> within <ul> within <nav> within <header> */
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 footer {
